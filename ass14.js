@@ -195,7 +195,7 @@ if{(ingredients == ingredients[4])}
   **********/
 
 function getCheapestMenuItem(menu) {
-  // Your code here
+  return getCheapestMenuItem[...Minmath]
 }
 // console.log(getCheapestMenuItem(menu));
 
