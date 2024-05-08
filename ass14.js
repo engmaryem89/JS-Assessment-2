@@ -171,14 +171,12 @@ function countMainCourseItems(menu) {
     ANSWER: ["Pasta", "Burger", "Pizza"]
     **********/
 
-function listMenuItemNamesByCategory(menu, category) 
-  let cat=[]
-  listMenuItemNamesByCategory.filter((menu)=>{
-    return category.name;
-  }
-)
-
-// console.log(listMenuItemNamesByCategory(menu, "Main Course"));
+let count=[]
+menuItem.filter((item)>={
+if{(ingredients == ingredients[4])}
+  return ingredients;
+} 
+ console.log(listMenuItemNamesByCategory(menu, "Main Course"));
 
 /**********
   Question 6: 🌶️🌶️
