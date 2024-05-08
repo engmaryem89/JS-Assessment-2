@@ -150,8 +150,15 @@ console.log(addMenuItem(menu, newMenuItem));
     **********/
 
 function countMainCourseItems(menu) {
-  // Your code here
+  let count = 0;
+  {
+    if (item.category == "main course") {
+      count = count + 1;
+    }
+  }
+  return count;
 }
+
 // console.log(countMainCourseItems(menu));
 
 /**********
@@ -164,9 +171,13 @@ function countMainCourseItems(menu) {
     ANSWER: ["Pasta", "Burger", "Pizza"]
     **********/
 
-function listMenuItemNamesByCategory(menu, category) {
-  // Your code here
-}
+function listMenuItemNamesByCategory(menu, category) 
+  let cat=[]
+  listMenuItemNamesByCategory.filter((menu)=>{
+    return category.name;
+  }
+)
+
 // console.log(listMenuItemNamesByCategory(menu, "Main Course"));
 
 /**********
